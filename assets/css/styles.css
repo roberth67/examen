@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #f2f2f2;
+    font-size: Arial, Sans-serif;
+  }
+  
+  .contenedor {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+  }
+  
+  header,
+  .main,
+  aside,
+  footer {
+    padding: 20px;
+  }
+  
+  header {
+    background: #0d2c44;
+    color: #fff;
+  }
+  
+  .main {
+    background: #fff;
+    width: 70%;
+    height: 500px;
+    float: left;
+  }
+  .main table{
+      table-layout: auto;
+  }
+  .main table th{
+
+        background-color: #3392eb;
+        color: white;
+      
+  }
+  .main table, th, td {
+    border: 1px solid black;
+    padding: 5px 10px;
+  }
+
+  .main table td a{
+      margin: 1px;
+      padding: 5px;
+      border: black;
+      background: rgb(115, 14, 209);
+      text-decoration: none;
+      color: black;
+  }
+  .main .formulario .btn-enviar{
+        width: 50%;
+        background: #1860e6;
+        color: #fff;
+        border:none;
+        cursor: pointer;
+        font-size: 16px;
+        text-align: center;
+        padding: 20px;
+        display: inline-block;
+        text-decoration: none;
+        border-radius: 6px;
+    }
+
+    .main .formulario .btn-enviar:hover{
+        background: #0e58e0;
+    }
+
+  .main .formulario input[type='text'],
+  .main .formulario input[type='mail'] {
+      display: block;  
+      width: 100%;    
+      margin-bottom: 20px;
+      padding: 15px 10px;
+      border: none;
+      border-bottom: 2px solid #ccc;
+      font-family: 'Slabo 27px', serif;
+      font-size: 18px;
+  }
+
+  .main .formulario input[type='text']:focus,
+  .main .formulario input[type='mail']:focus {
+    border-bottom: 2px solid #246eb9
+}
+  aside {
+    background: #bb1f35;
+    color: #fff;
+    width: 30%;
+    height: 500px;
+    float: left;
+  }
+
+  aside h3{
+      padding-bottom: 50px;
+      text-align: center;
+  }
+
+  aside .menu ol li{
+    background: #cc394d;
+    /*margin-top: 20px;*/
+    list-style:none;
+    text-align: center;
+  }
+
+  aside .menu ol li:hover{
+    background: #e74e62;
+
+  }
+
+  aside .menu ol li a{
+      text-decoration: none;
+      color: aquamarine; 
+      padding: 20px auto;
+  }
+  aside .menu ol li a:hover{
+    text-decoration: none;
+    color: rgb(51, 170, 130);
+}
+
+.contenedor-data{
+    display: flex;
+}
+  
+  footer {
+    clear: both;
+    width: 100%;
+    background: #0d2c44;
+    color: #fff;
+  }
+  
+ 
+  
